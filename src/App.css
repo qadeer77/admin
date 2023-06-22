@@ -1,0 +1,290 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.form-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-button {
+  padding: 10px;
+  width: 150px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #45a049;
+}
+
+.form-button:active {
+  background-color: #3e874b;
+}
+
+.link-text {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.link-text a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.link-text a:hover {
+  text-decoration: underline;
+}
+
+
+.sidebar {
+  background-color: skyblue;
+  padding: 20px;
+  width: 200px;
+  height: 100vh;
+}
+
+.admin-dashboard {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.admin-icon {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.admin-text {
+  font-weight: bold;
+}
+
+.sidebar-options {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: #ffff; /* Changed the text color to black */
+}
+
+.sidebar-option:hover {
+  background-color: lightblue;
+}
+
+
+.parentDashboard{
+  background-color: rgb(242, 247, 247);
+}
+
+.sidebar-icon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.sidebar-text {
+  color: black;
+}
+
+.dashboard-content {
+  margin-left: 220px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+
+
+.parentDashboard {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.nextToSidebar {
+  margin-left: 20px;
+}
+
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.users-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.users-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.image-upload {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.upload-text {
+  font-weight: bold;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+
+
+.add-product-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-product-button:hover {
+  background-color: #45a049;
+}
+
+
+.classH2{
+  text-align: center;
+}
+
+
+
+
+.finance-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
