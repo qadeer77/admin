@@ -30,24 +30,24 @@ import {
 
 // Your web app's Firebase configuration for admin-panel-bc4fe project
 const firebaseConfig = {
-  apiKey: "AIzaSyC2m6SuIqywBD8IWM8z55Ncq8nrNi-WxBY",
-  authDomain: "admin-panel-bc4fe.firebaseapp.com",
-  projectId: "admin-panel-bc4fe",
-  storageBucket: "admin-panel-bc4fe.appspot.com",
-  messagingSenderId: "591879263166",
-  appId: "1:591879263166:web:b008b648f3abb599e29fef",
-  measurementId: "G-KX9BXDYYEG"
+    apiKey: "AIzaSyDWakjRI544cJfkyw7-d6XVCIsTDEZ4edE",
+    authDomain: "dairy-a3046.firebaseapp.com",
+    projectId: "dairy-a3046",
+    storageBucket: "dairy-a3046.appspot.com",
+    messagingSenderId: "266228402163",
+    appId: "1:266228402163:web:8766e028f5efd59c48b486",
+    measurementId: "G-WHWD7RMG6L"
 };
 
 // Your web app's Firebase configuration for dairy-form-be0d0 project
 const firebaseConfig2 = {
-  apiKey: "AIzaSyAeCPLADrVHzQnY4y0J4WZf1WENr-h4C3A",
-  authDomain: "dairy-form-be0d0.firebaseapp.com",
-  projectId: "dairy-form-be0d0",
-  storageBucket: "dairy-form-be0d0.appspot.com",
-  messagingSenderId: "329746620632",
-  appId: "1:329746620632:web:cbfa54193ee8e2b24db7ad",
-  measurementId: "G-G578TLDQHP"
+    apiKey: "AIzaSyC_OV7ZXL4F2em764Eectob8hn6xRKlIzk",
+    authDomain: "admin-295de.firebaseapp.com",
+    projectId: "admin-295de",
+    storageBucket: "admin-295de.appspot.com",
+    messagingSenderId: "805185465764",
+    appId: "1:805185465764:web:02ff6fa40c800cda472531",
+    measurementId: "G-YT3VB63TGN"
 };
 
 // Initialize Firebase for admin-panel-bc4fe project
